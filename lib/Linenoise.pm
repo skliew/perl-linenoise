@@ -66,7 +66,7 @@ https://github.com/antirez/linenoise
 
 =head1 AUTHOR
 
-darkgrin E<lt>darkgrin@yahoo.comE<gt>
+skliew E<lt>skliew@gmail.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
