@@ -23,5 +23,6 @@ while (1) {
     print "echo: $line\n";
     Linenoise::history_add($line);
     Linenoise::history_save('history.txt');
+    last if $line eq 'exit';
 }
 
