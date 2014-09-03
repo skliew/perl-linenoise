@@ -1,5 +1,8 @@
 Revision history for Perl extension Linenoise.
 
+0.02  Thu Sep 4 02:12:13 MYT 2014
+	- Update linenoise.c and linenoise.h from the linenoise repo.
+
 0.01  Fri Apr 11 22:46:27 2014
 	- original version; created by h2xs 1.23 with options
 		-A -n Linenoise
