@@ -6,3 +6,12 @@ ppport.h
 README
 t/Linenoise.t
 lib/Linenoise.pm
+examples/example.pl
+linenoise.c
+linenoise/example.c
+linenoise/LICENSE
+linenoise/linenoise.c
+linenoise/linenoise.h
+linenoise/README.markdown
+README.md
+
