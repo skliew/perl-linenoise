@@ -11,7 +11,6 @@ WriteMakefile(
     LIBS              => [''], # e.g., '-lm'
     DEFINE            => '', # e.g., '-DHAVE_SOMETHING'
     INC               => '-I. -Ilinenoise', # e.g., '-I. -I/usr/include/other'
-    C                 => ['linenoise/linenoise.c', 'Linenoise.c'],
 	# Un-comment this if you add C files to link with later:
-    OBJECT            => ['linenoise.o', 'Linenoise.o'], # link all the C files too
+    OBJECT            => q/$(O_FILES)/
 );
