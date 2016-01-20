@@ -10,7 +10,8 @@ WriteMakefile(
        AUTHOR         => 'skliew <skliew@gmail.com>') : ()),
     LIBS              => [''], # e.g., '-lm'
     DEFINE            => '', # e.g., '-DHAVE_SOMETHING'
-    INC               => '-I.', # e.g., '-I. -I/usr/include/other'
+    INC               => '-I. -Ilinenoise', # e.g., '-I. -I/usr/include/other'
+    C                 => ['linenoise/linenoise.c', 'Linenoise.c'],
 	# Un-comment this if you add C files to link with later:
-    OBJECT            => '$(O_FILES)', # link all the C files too
+    OBJECT            => ['linenoise.o', 'Linenoise.o'], # link all the C files too
 );
